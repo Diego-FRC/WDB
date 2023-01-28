@@ -159,12 +159,18 @@
         <input type="checkbox" name="agree_tos" id="agree" checked>
         <label for="agree">I Agree to terms</label>
         <p>
+        <div>
             <label for="Adam">Adam:</label>
             <input type="radio" name="whosubmit" id="Adam" value="Adam">
+        </div>
+        <div>
             <label for="Smith">Smith:</label>
             <input type="radio" name="whosubmit" id="Smith" value="Smith">
+        </div>
+        <div>
             <label for="Greg">Greg:</label>
             <input type="radio" name="whosubmit" id="Greg" value="Greg">
+        </div>
         </p>
         <button>Submit</button>
         <hr>
@@ -181,23 +187,26 @@
             <input type="range" id="cheese" min="1" max="20" value="0" name="cheese_amount">
         </p>
         <p>
+        <div>
             <label for="">Comments:</label>
-            <br>
             <textarea name="comments:" id="coments" cols="30" rows="3"></textarea>
+        </div>
         </p>
         <p>
             <button>Submit</button>
         </p>
     </form>
-<form action="/anyway">
-    <label for="username">Username:</label>
-    <input type="text" name="username" id="username" placeholder="username">
-    <br>
-    <label for="password">Password:</label>
-    <input type="password" name="password" id="password" placeholder="password">
-    <br>
-    <button>Register</button>
-</form>
+    <form action="/anyway">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="username">
+        </div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="password">
+        <div>
+            <button>Register</button>
+        </div>
+    </form>
 
 
 </body>
