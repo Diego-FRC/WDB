@@ -107,23 +107,24 @@
     </table>
 
     <h3>Forms to have more information:</h3>
-    <form action="/when you click in Submit!!(file name)">
+    <!-- file:///C:/Users/Diego/Desktop/Projeto%20WDB/EXEMPLE?birthday=1989-05-19&username=FRC&password=diego1234&color=%230033ff&age=33 -->
+    <form action="EXEMPLE">
         <label for="birthday">Date of Birthday:</label>
-        <input type="date" placeholder="Birthday" id="birthday">
+        <input type="date" placeholder="Birthday" id="birthday" name="birthday">
         <p>
-            <label for="Username">Enter a Username:</label>
-            <input id="Username" type="text" placeholder="Username">
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
         </p>
         <p>
             <label for="password">Enter a Passawor:</label>
-            <input type="password" placeholder="Passaword" id="password">
+            <input type="password" placeholder="Passaword" id="password" name="password">
         </p>
         <p>
             <label for="color">Choice a Color:</label>
-            <input type="color" id="color">
+            <input type="color" id="color" name="color">
         </p>
         <label for="number">Enter your age:</label>
-        <input type="number" id="number">
+        <input type="number" id="number" name="age" min="1" max="50" placeholder="Age" step="2">
         <p>
             <button type="submit">Submit</button>
             <button type="button">Regular botton (won`t submit)</button>
@@ -134,6 +135,71 @@
     <p>
         <button>not inside form, won`t submit</button>
     </p>
+    <hr>
+    <h2>Search on Reddit or Google or YouTube</h2>
+    <h3>Reddit</h3>
+
+    <form action="https://www.reddit.com/search">
+        <button>Reddit</button>
+        <input type="text" name="q" id="search" placeholder="Search">
+    </form>
+    <h3>Google</h3>
+    <form action="https://www.google.com/search">
+        <button>Google</button>
+        <input type="text" name="q" placeholder="Search">
+    </form>
+    <h3>YouTube</h3>
+    <form action="https://www.youtube.com/results">
+        <button>YouTube</button>
+        <input type="text" name="search_query" placeholder="Search">
+    </form>
+    <hr>
+    <h3>More inputs!</h3>
+    <form action="/anyway">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">I Agree to terms</label>
+        <p>
+            <label for="Adam">Adam:</label>
+            <input type="radio" name="whosubmit" id="Adam" value="Adam">
+            <label for="Smith">Smith:</label>
+            <input type="radio" name="whosubmit" id="Smith" value="Smith">
+            <label for="Greg">Greg:</label>
+            <input type="radio" name="whosubmit" id="Greg" value="Greg">
+        </p>
+        <button>Submit</button>
+        <hr>
+        <p>
+            <label for="meal">Select protein:</label>
+            <select name="meal" id="meal">
+                <option value="meat">Meat</option>
+                <option value="fish">Fish</option>
+                <option value="chicken">Chicken</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" min="1" max="20" value="0" name="cheese_amount">
+        </p>
+        <p>
+            <label for="">Comments:</label>
+            <br>
+            <textarea name="comments:" id="coments" cols="30" rows="3"></textarea>
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+    </form>
+<form action="/anyway">
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" placeholder="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="password">
+    <br>
+    <button>Register</button>
+</form>
+
+
 </body>
 
 </html>
