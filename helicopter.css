@@ -1,0 +1,48 @@
+* {
+    background-color: #e9edc9;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #3d9f8a overline underline wavy;
+    letter-spacing: 8px;
+    font-size: 40px;
+    font-family: georgia;
+}
+
+p {
+    line-height: 2.0;
+}
+
+#definition {
+    color: #3a5a40;
+}
+
+h2,
+h3 {
+    text-decoration: underline;
+    color: #3a5a40;
+}
+
+button {
+    background-color: #dda15e;
+    color: #3a5a40;
+}
+
+#register {
+    background-color: #ffb703;
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.important {
+    color: #d90429;
+}
+
+section p {
+    line-height: 3.0;
+}
