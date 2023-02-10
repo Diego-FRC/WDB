@@ -46,3 +46,27 @@ span {
 section p {
     line-height: 3.0;
 }
+
+input[type="password"] {
+    color: #d90429;
+}
+
+input[type="text"] {
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+button:active {
+    background-color: antiquewhite;
+}
+
+#register:active {
+    background-color: antiquewhite;
+}
+
+a:hover {
+    text-decoration: underline wavy;
+}
