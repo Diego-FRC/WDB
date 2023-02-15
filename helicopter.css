@@ -70,3 +70,18 @@ button:active {
 a:hover {
     text-decoration: underline wavy;
 }
+
+h2::first-letter {
+    color: #3a5a40;
+    font-size: 30px;
+}
+
+p::selection {
+    color: #e9edc9;
+    text-shadow: #000000;
+    background-color: #ffb703;
+}
+
+button {
+    width: 200px;
+}

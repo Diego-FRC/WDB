@@ -2,14 +2,21 @@
     width: 100px;
     height: 100px;
     box-sizing: border-box;
-    border: 1 px solid black;
+    border: 1.5px solid black;
+    border-radius: 20px;
+
+
 }
 
 #board {
     display: flex;
-    margin: 0 auto;
+    border: 2px solid black;
+    margin: auto;
     width: 500px;
     flex-wrap: wrap-reverse;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .square:nth-of-type(even) {
@@ -18,4 +25,22 @@
 
 .square:nth-of-type(odd) {
     background-color: red;
+}
+
+.square:hover {
+    background-color: blue;
+}
+
+h1 {
+    text-decoration: underline;
+    width: 500px;
+    height: 30px;
+    background: #32a791;
+    border: 2px solid black;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
 }
